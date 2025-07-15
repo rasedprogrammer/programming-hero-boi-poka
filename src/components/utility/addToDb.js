@@ -41,4 +41,9 @@ const addToStroredWishList = (id) => {
   }
 };
 
-export { addToStroredReadList, addToStroredWishList };
+export {
+  addToStroredReadList,
+  getStroredReadList,
+  addToStroredWishList,
+  getStroredWishList,
+};
